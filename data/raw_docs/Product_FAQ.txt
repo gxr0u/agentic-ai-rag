@@ -1,0 +1,10 @@
+Product FAQ
+
+Q: What does the product do?
+A: The product automates internal workflows using AI-driven agents.
+
+Q: Is customer data stored securely?
+A: Yes, all customer data is encrypted at rest and in transit.
+
+Q: Who can access the product?
+A: Access is role-based and controlled by administrators.
