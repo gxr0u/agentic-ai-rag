@@ -537,6 +537,46 @@ on core agentic and RAG concepts.
 Despite these limitations, the system demonstrates a
 production-aligned agentic AI architecture with clear extensibility paths.
 
+
+## Future Improvements
+
+The current implementation is intentionally scoped for clarity and assignment constraints.
+The following enhancements would be prioritized in a production-grade system:
+
+- **Managed Vector Store**  
+  Replace local FAISS with Azure AI Search or a managed vector database to enable
+  horizontal scaling and high availability.
+
+- **Robust Agent Orchestration**  
+  Extend the agent to support multiple tools, multi-step planning, and
+  multi-agent collaboration for complex workflows.
+
+- **Persistent Memory Layer**  
+  Replace in-memory session storage with Redis or Azure Cosmos DB to support
+  long-lived conversations and multi-instance deployments.
+
+- **Authentication & Authorization**  
+  Add user authentication, role-based access control (RBAC), and
+  document-level access filtering.
+
+- **Observability & Evaluation**  
+  Introduce structured logging, tracing, automated evaluation metrics,
+  and monitoring dashboards for agent behavior and response quality.
+
+- **Cost & Performance Optimization**  
+  Add caching, request batching, and rate-limit handling to optimize
+  inference cost and latency.
+
+- **CI/CD & Infrastructure as Code**  
+  Automate deployments using GitHub Actions and define infrastructure
+  using Bicep or Terraform.
+
+These improvements can be implemented incrementally without
+changing the core agent or RAG architecture.
+
+
+
+
 ## Summary
 
 This project demonstrates the design and implementation of a production-aligned
