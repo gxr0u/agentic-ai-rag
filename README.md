@@ -1,3 +1,4 @@
+This README is intentionally detailed to document design decisions and tradeoffs for this AI engineering project.
 # Agentic AI RAG System (Azure-Ready)
 
 A production-oriented Agentic AI system that uses Retrieval-Augmented Generation (RAG) and tool-calling to answer user queries over internal documents, designed for Azure OpenAI deployment.
